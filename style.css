@@ -1,0 +1,171 @@
+/* generic */
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+i{
+    color: #262626;
+}
+/* end generic */
+
+/* header */
+
+.header{
+    background-color: #26292E;
+    margin-bottom: 0;
+    /* border: 5px solid blue; */
+}
+
+
+h1{
+    font-family: 'Style Script', cursive;
+    color: floralwhite;
+    font-weight: 100;
+}
+
+.so-list-item {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+/* end header */
+
+/* main */
+
+.section1{
+    background-color: #E9738D;
+    height: auto;
+}
+
+.block1 {
+    margin-left: 10px;
+    color: whitesmoke;
+    /* border: 2px solid blue; */
+}
+
+.block1 h2{
+    padding: 30px;
+    margin-left: -20px;
+}
+
+.text{
+    padding: 7px;
+}
+
+.block2{
+    margin-right: -3%;
+}
+
+.block2 img{
+    width: 600px;
+    height: auto;
+}
+
+
+.button{
+    margin: 10px;
+    padding: 10px;
+    color: floralwhite;
+    background-color:#262626;
+    border-radius: 7px;
+}
+
+.section2{
+    padding: 30px;
+    background-color: #FAE4E9;
+    border-bottom: 5px solid #E9738D;
+    /* border: 2px solid red; */
+}
+
+.section2 .sub-header{
+    color: black;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+.fa-star{
+    background-color: #262626;
+    color: white;
+    padding: 5px;
+    font-size: 1em !important;
+    border-radius: 5px;
+}
+
+.block5{
+    margin-top: 15px;
+}
+
+.section2 i{
+    font-size: 1.5em;
+}
+
+.section3 .sub-header{
+    margin-top: 2%;
+    /* border: 1px solid black; */
+}
+
+.product {
+    padding: 20px;
+}
+
+.fa-search{
+    padding: 50px;
+    color: white;
+    font-size: 2.5em;
+    background-color: #262626;
+    border: 5px solid gray;
+}
+
+.aside{
+    margin-top: -7%;
+    color: grey;
+    /* border: 2px solid blue; */
+}
+
+.aside span{
+    font-weight: bold;
+    color: black;
+}
+
+.aside .sub-header{
+    padding: 30px 0;
+    font-weight: 500;
+    color: black;
+    white-space: nowrap;
+}
+
+.aside p{
+    padding: 20px 0;
+}
+
+/* end main */
+
+/* footer */
+.footer{
+    background-color: #26292E;
+    color: white;
+    margin-top: 30px;
+}
+
+.colophon{
+    padding-top: 20px;
+}
+
+.footer i{
+    color:#262626;
+}
+
+.footer nav .so-list-item{
+    margin: 0 20px;
+}
+/* end footer  */
